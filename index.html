@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Veterinaria José Granda</title>
+    <meta charset="UTF-8">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    
+    <!-- Google Fonts: Nunito & Lato -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body> 
+    <header>
+        <!-- NAVBAR -->
+        <nav class="navbar">
+            <div class="logo">
+                <img src="img/pin.png" alt="Veterinaria José Granda Logo" class="logo-img">
+                <div class="logo-text">
+                    <h1 id="jose">José</h1>
+                    <h1 id="granda">Granda</h1>
+                </div>
+            </div>
+            <ul id="nav-links" class="nav-links">
+                <li><a href="#hero">INICIO</a></li>
+                <li><a href="#services">SERVICIOS</a></li>
+                <li><a href="#aboutus">NOSOTROS</a></li>
+                <li><a href="#contact">CONTACTO</a></li>
+            </ul>
+            <!-- Hamburger Menu -->
+            <div class="hamburger" onclick="toggleMenu()">☰</div>
+        </nav>
+
+        <!-- HERO -->     
+        <section id="hero" class="hero">
+            <div class="hero-box">
+                <h1>Experiencia, dedicación y cariño para tu mascota.</h1>
+                <a href="#contact" class="boton">¡CONTÁCTANOS!</a>
+            </div>
+        </section>
+    </header>
+
+    <main>
+        <!-- SERVICES -->
+        <section id="services" class="services">
+            <!-- Service 1 -->
+            <div class="service">
+                <img src="img/queries.jpg" alt="Consultas veterinarias">
+                <h2>CONSULTAS</h2>
+                <p class="description">
+                    Atención médica integral para evaluar el estado de salud de tu mascota, 
+                    detectar problemas tempranos y orientar tratamientos adecuados.
+                </p>
+            </div>
+
+            <!-- Service 2 -->
+            <div class="service">
+                <img src="img/rehab.jpg" alt="Terapias veterinarias">
+                <h2>TERAPIAS</h2>
+                <p class="description">
+                    Aplicamos terapias especializadas para aliviar dolores, mejorar movilidad, 
+                    acelerar recuperaciones y brindar bienestar a cada paciente.
+                </p>
+            </div>
+
+            <!-- Service 3 -->
+            <div class="service">
+                <img src="img/images.jpg" alt="Imágenes médicas veterinarias">
+                <h2>IMÁGENES MÉDICAS</h2>
+                <p class="description">
+                    Realizamos estudios de diagnóstico como ecografías y radiografías para 
+                    obtener información precisa y apoyar decisiones veterinarias.
+                </p>
+            </div>
+
+            <!-- Service 4 -->
+            <div class="service">
+                <img src="img/lab.jpg" alt="Laboratorio y fármacos veterinarios">
+                <h2>LABORATORIO Y FÁRMACOS</h2>
+                <p class="description">
+                    Contamos con análisis clínicos rápidos y un surtido completo de medicamentos 
+                    para asegurar diagnósticos certeros y tratamientos seguros.
+                </p>
+            </div>
+
+            <!-- Service 5 -->
+            <div class="service">
+                <img src="img/vaccination.jpg" alt="Vacunación veterinaria">
+                <h2>VACUNACIÓN Y DESPARASITACIÓN</h2>
+                <p class="description">
+                    Protegemos a tu mascota contra enfermedades y parásitos mediante esquemas 
+                    preventivos que cuidan su salud en cada etapa de vida.
+                </p>
+            </div>
+
+            <!-- Service 6 -->
+            <div class="service">
+                <img src="img/surgery.jpg" alt="Cirugías veterinarias">
+                <h2>CIRUGÍAS</h2>
+                <p class="description">
+                    Ofrecemos procedimientos quirúrgicos seguros con equipos modernos y 
+                    monitoreo constante para garantizar una recuperación adecuada.
+                </p>
+            </div>
+
+            <!-- Service 7 -->
+            <div class="service">
+                <img src="img/grooming.jpg" alt="Grooming para mascotas">
+                <h2>GROOMING</h2>
+                <p class="description">
+                    Brindamos servicios de higiene y estética para mantener el pelaje 
+                    saludable, reducir molestias y mejorar el bienestar general de tu mascota.
+                </p>
+            </div>
+
+            <!-- Service 8 -->
+            <div class="service">
+                <img src="img/accesories.jpg" alt="Accesorios para mascotas">
+                <h2>ACCESORIOS</h2>
+                <p class="description">
+                    Disponemos de collares, camas, juguetes y artículos de cuidado diseñados 
+                    para brindar confort, seguridad y estilo a tu compañero.
+                </p>
+            </div>
+        </section>
+
+        <!-- ABOUT US -->
+        <section id="aboutus" class="about-us">
+            <h2>¿Por qué elegirnos?</h2>
+            <div class="features">
+                <!-- Card 1 - Experience -->
+                <div class="feature" data-aos="fade-up">
+                    <div class="icon">⏳</div>
+                    <h3>Más de 30 Años de Experiencia</h3>
+                    <p>Tres décadas dedicadas al cuidado y bienestar animal con amor y ciencia</p>
+                </div>
+
+                <!-- Card 2 - Personal -->
+                <div class="feature" data-aos="fade-up" data-aos-delay="100">
+                    <div class="icon">👨‍⚕️</div>
+                    <h3>Personal en Constante Capacitación</h3>
+                    <p>Nuestro equipo se actualiza regularmente con las últimas técnicas veterinarias</p>
+                </div>
+
+                <!-- Card 4 - Attention -->
+                <div class="feature" data-aos="fade-up" data-aos-delay="200">
+                    <div class="icon">❤️</div>
+                    <h3>Atención Personalizada</h3>
+                    <p>Estamos disponibles para emergencias y seguimiento continuo de cada paciente</p>
+                </div>
+
+                <!-- Card 4 - Equipment -->
+                <div class="feature" data-aos="fade-up" data-aos-delay="300">
+                    <div class="icon">🏥</div>
+                    <h3>Tecnología de Vanguardia</h3>
+                    <p>Contamos con equipos modernos para diagnósticos precisos y tratamientos efectivos</p>
+                </div>
+
+                <!-- Card 5 - Prices -->
+                <div class="feature" data-aos="fade-up" data-aos-delay="400">
+                    <div class="icon">💲</div>
+                    <h3>Precios Accesibles y Transparentes</h3>
+                    <p>Ofrecemos calidad profesional con tarifas justas que se adaptan a tu economía</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact" class="contact">
+            <!-- Contact Top: BANNER -->
+            <div class="contact-top">
+                <figure>
+                    <img src="img/logo.png" alt="Logo José Granda" />
+                </figure>
+            </div>
+
+            <!-- Contact Middle: MAPS -->
+            <div class="contact-middle">
+                <iframe
+                    class="map-frame"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3902.208039408061!2d-77.07547632483434!3d-12.004975940011919!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105cef4f3cf2197%3A0x5e875306ecbe1cb1!2sAv.%20Jos%C3%A9%20Granda%203666%2C%20San%20Mart%C3%ADn%20de%20Porres%2015311!5e0!3m2!1ses-419!2spe!4v1700976000000"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+
+            <!-- Contact Bottom: LINKS -->
+            <div class="contact-bottom">
+                <h3>Tu mascota merece lo mejor. ¡Acércate o escríbenos!</h3>
+                <div class="socialmedia">
+                    <a href="https://www.facebook.com/grandavet" target="_blank">
+                        <img src="img/fb.png" class="icon-facebook" alt="Facebook">
+                    </a>
+                    <a href="https://wa.me/51949139386" target="_blank">
+                        <img src="img/wsp.png" class="icon-whatsapp" alt="WhatsApp">
+                    </a>
+                    <a href="https://maps.app.goo.gl/YoUZWE9cfMR1nGdw8" target="_blank">
+                        <img src="img/maps.png" class="icon-maps" alt="Google Maps">
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>
+          VETERINARIA JOSÉ GRANDA | EL CARIÑO QUE TU MEJOR AMIGO MERECE
+        </p>
+    </footer>
+
+    <!-- Link to JS -->
+    <script src="js/hamburger.js"></script>
+    <script src="js/animation.js"></script>
+
+</body>
+</html>
