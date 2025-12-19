@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
     
-    // Evento resize
+    // Evento resize (redimensionado)
     window.addEventListener('resize', () => {
         const navMenu = document.getElementById('nav-links');
         const screenWidth = window.innerWidth;

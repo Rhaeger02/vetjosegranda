@@ -62,7 +62,7 @@ section {
     font-size: 30px;
 }
 
-/* Logo Image */
+/* LOGO IMAGE */
 .logo-img {
     height: 60px;
     width: auto;
@@ -155,7 +155,7 @@ section {
     background-color: #febf10;
 }
 
-/* INDIVIDUAL SERVICE */
+/* INDIVIDUAL SERVICES */
 .service {
     background-color: white;
     border: 1px solid #ddd;
@@ -238,7 +238,7 @@ section {
     border-radius: 3px;
 }
 
-/* Contenedor de características */
+/* ABOUT US - FEATURES */
 .features {
     display: flex;
     flex-wrap: wrap;
@@ -249,7 +249,7 @@ section {
     padding: 20px;
 }
 
-/* Tarjetas individuales */
+/* ABOUT US - INDIVIDUAL CARDS */
 .feature {
     background-color: white;
     border-radius: 20px;
@@ -291,7 +291,7 @@ section {
     border-color: rgba(0, 209, 209, 0.2);
 }
 
-/* Iconos */
+/* ICONS */
 .feature .icon {
     font-size: 70px;
     margin-bottom: 30px;
@@ -324,7 +324,7 @@ section {
     box-shadow: 0 10px 25px rgba(0, 209, 209, 0.3);
 }
 
-/* Títulos de características */
+/* ABOUT US - TITLES */
 .feature h3 {
     color: #747474;
     font-size: 24px;
@@ -337,7 +337,7 @@ section {
     line-height: 1.3;
 }
 
-/* Texto descriptivo */
+/* ABOUT US - DESCRIPTIONS */
 .feature p {
     color: #666;
     font-size: 17px;
@@ -383,7 +383,7 @@ section {
     text-align: center;
 }
 
-/* Map iframe */
+/* MAP IFRAME */
 .map-frame {
     width: 100%;
     height: 350px;
@@ -597,7 +597,7 @@ footer p {
         font-size: 16px;
     }
 
-    /* ABOUT US */
+    /* ABOUT US MOBILE */
     #aboutus {
         padding: 70px 15px;
     }
@@ -663,7 +663,7 @@ footer p {
 
 /* SMALL MOBILE (max-width: 480px) */
 @media only screen and (max-width: 480px) {
-    /* HERO */
+    /* HERO MOBILE */
     .hero-box h1 {
         font-size: 24px;
     }
@@ -673,7 +673,7 @@ footer p {
         font-size: 16px;
     }
     
-    /* SERVICES */
+    /* SERVICES MOBILE */
     .services {
         padding: 40px 10px;
         gap: 20px;
@@ -692,7 +692,7 @@ footer p {
         min-height: 45px;
     }
 
-    /* ABOUT US */
+    /* ABOUT US MOBILE */
     #aboutus h2 {
         font-size: 24px;
     }
@@ -714,7 +714,7 @@ footer p {
         margin-bottom: 20px;
     }
     
-    /* CONTACT */
+    /* CONTACT MOBILE */
     .contact {
         padding: 70px 15px 30px;
     }
@@ -732,7 +732,7 @@ footer p {
         margin-bottom: 20px;
     }
     
-    /* FOOTER */
+    /* FOOTER MOBILE */
     footer p {
         font-size: 14px;
     }

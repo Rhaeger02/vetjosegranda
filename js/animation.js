@@ -1,4 +1,4 @@
-// animations.js - Animaciones al hacer scroll
+// animations.js - Animaciones al hacer scroll ABOUT US
 document.addEventListener('DOMContentLoaded', function() {
     console.log('🎬 Animaciones cargadas');
     
@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const observerOptions = {
         root: null,
         rootMargin: '0px',
-        threshold: 0.2 // Se activa cuando el 20% del elemento es visible
+        threshold: 0.3 // Se activa cuando el 20% del elemento es visible
     };
     
     // Observador para las cards
@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 title.style.animation = 'titleFadeIn 1s ease forwards';
             }
         });
-    }, { threshold: 0.5 });
+    }, { threshold: 0.3 });
     
     // Observar el título de la sección
     const sectionTitle = document.querySelector('#aboutus h2');
